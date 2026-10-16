@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.img-banner {
+	height: 100vh;
+	background: url("../assets/explore-natureza.avif") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.img-praia {
+	height: 100vh;
+	background: url("../assets/praias.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.img-montanhas {
+	height: 100vh;
+	background: url("../assets/montanhas.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.img-florestas {
+	height: 100vh;
+	background: url("../assets/florestas.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.titulo {
+	font-size: 25px;
+	color: #ffffff;
+	border: 2px solid;
+	padding: 12px ;
+	border-radius: 6px;
+}
+
+.paragrafo {
+	padding: 30px 70px 30px 70px;
+}
+
+.paragrafo p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.til {
+	color: red;
+}
+
+.button {
+	width: 60px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px;
+	position: absolute;
+	position: fixed;
+	border-radius: 6px;
+	bottom: 20px;
+	right: 20px;
+}
+
+.button > a {
+	color: #ffffff;
+}
